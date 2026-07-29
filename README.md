@@ -29,34 +29,51 @@
 <br />
 
 <!-- ============================================ -->
+<!-- SNAKE ANIMATION                              -->
+<!-- ============================================ -->
+<div align="center">
+
+## 🐍 Contribution Snake
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Winter21c/Winter21c/output/github-contribution-grid-snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Winter21c/Winter21c/output/github-contribution-grid-snake.svg" />
+  <img alt="GitHub Contribution Snake" src="https://raw.githubusercontent.com/Winter21c/Winter21c/output/github-contribution-grid-snake-dark.svg" />
+</picture>
+
+</div>
+
+<br />
+
+<!-- ============================================ -->
 <!-- ABOUT ME                                     -->
 <!-- ============================================ -->
 <div align="left">
 
-## 👨‍💻 About Me
+## 👨‍💻 关于我
 
 ```yaml
 winter@github:~$ cat /etc/profile
 ------------------------------------
-name        : Winter
-role        : Cyber Security Student
-location    : China
+昵称        : Winter
+身份        : 网络安全本科生
+所在地      : 中国
 ------------------------------------
 
-focus:
-  - 🎓 Network Security and Law Enforcement Student
-  - 🐧 Linux Enthusiast (Arch, Debian, Ubuntu Server)
-  - 🔐 Penetration Testing & Web Security
-  - 🌐 OpenWrt Router Firmware & Network Devices
-  - 🤖 AI Security — Transformer-based Anomaly Detection
-  - 🐳 Docker & Containerized Security Labs
-  - 🛡️ SQL Injection Detection & Traffic Analysis
-  - 🔬 ARM Linux & Embedded Systems
+研究方向:
+  - 🎓 网络安全与执法专业学生
+  - 🐧 Linux 爱好者 (Arch, Debian, Ubuntu Server)
+  - 🔐 渗透测试与 Web 安全
+  - 🌐 OpenWrt 路由器固件与网络设备
+  - 🤖 AI 安全 — 基于 Transformer 的异常检测
+  - 🐳 Docker 与容器化安全实验环境
+  - 🛡️ SQL 注入检测与流量分析
+  - 🔬 ARM Linux 与嵌入式系统
 
-currently:
-  - Transformer models for SQL injection detection
-  - Custom OpenWrt security gateway firmware
-  - Containerized security research environments
+当前聚焦:
+  - Transformer 模型在 SQL 注入检测中的应用
+  - 定制 OpenWrt 安全网关固件
+  - 容器化安全研究环境搭建
 ```
 
 </div>
@@ -72,16 +89,16 @@ currently:
 <!-- ============================================ -->
 <div align="center">
 
-## 🛠 Tech Stack
+## 🛠 技术栈
 
-### Operating Systems
+### 操作系统
 
 [![Linux](https://skillicons.dev/icons?i=linux)](https://skillicons.dev)
 [![Arch](https://skillicons.dev/icons?i=arch)](https://skillicons.dev)
 [![Ubuntu](https://skillicons.dev/icons?i=ubuntu)](https://skillicons.dev)
 [![Debian](https://skillicons.dev/icons?i=debian)](https://skillicons.dev)
 
-### Programming Languages
+### 编程语言
 
 [![Python](https://skillicons.dev/icons?i=python)](https://skillicons.dev)
 [![C++](https://skillicons.dev/icons?i=cpp)](https://skillicons.dev)
@@ -89,7 +106,7 @@ currently:
 [![Bash](https://skillicons.dev/icons?i=bash)](https://skillicons.dev)
 [![Markdown](https://skillicons.dev/icons?i=markdown)](https://skillicons.dev)
 
-### DevOps & Infrastructure
+### 开发运维
 
 [![Docker](https://skillicons.dev/icons?i=docker)](https://skillicons.dev)
 [![Nginx](https://skillicons.dev/icons?i=nginx)](https://skillicons.dev)
@@ -98,7 +115,7 @@ currently:
 [![PostgreSQL](https://skillicons.dev/icons?i=postgres)](https://skillicons.dev)
 [![MySQL](https://skillicons.dev/icons?i=mysql)](https://skillicons.dev)
 
-### Security Tools
+### 安全工具
 
 ![Wireshark](https://img.shields.io/badge/Wireshark-1679A7?style=for-the-badge&logo=wireshark&logoColor=white)
 ![Burp Suite](https://img.shields.io/badge/Burp_Suite-FF6633?style=for-the-badge&logo=burp-suite&logoColor=white)
@@ -107,7 +124,7 @@ currently:
 ![SQLMap](https://img.shields.io/badge/SQLMap-CC0000?style=for-the-badge&logo=sqlite&logoColor=white)
 ![Hydra](https://img.shields.io/badge/Hydra-4285F4?style=for-the-badge&logo=hydra&logoColor=white)
 
-### AI & Machine Learning
+### AI 与机器学习
 
 ![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white)
 ![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white)
@@ -115,7 +132,7 @@ currently:
 ![NumPy](https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white)
 ![Transformers](https://img.shields.io/badge/Transformers-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black)
 
-### Editors & Terminal
+### 编辑器与终端
 
 ![Neovim](https://img.shields.io/badge/Neovim-57A143?style=for-the-badge&logo=neovim&logoColor=white)
 ![VS Code](https://img.shields.io/badge/VS_Code-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white)
@@ -134,47 +151,47 @@ currently:
 <!-- ============================================ -->
 <div align="center">
 
-## 🛡 Security Focus
+## 🛡 安全研究方向
 
 <table>
 <tr>
   <td align="center" width="33%">
-    <h3>🌐 Web Security</h3>
-    <sub>XSS • CSRF • SQLi • SSRF • RCE</sub>
+    <h3>🌐 Web 安全</h3>
+    <sub>XSS · CSRF · SQLi · SSRF · RCE</sub>
     <br/>
-    <sub>OWASP Top 10 • WAF Bypass</sub>
+    <sub>OWASP Top 10 · WAF 绕过</sub>
   </td>
   <td align="center" width="33%">
-    <h3>🔍 SQL Injection Detection</h3>
-    <sub>ML-based Detection • Log Parsing</sub>
+    <h3>🔍 SQL 注入检测</h3>
+    <sub>基于机器学习 · 日志解析</sub>
     <br/>
-    <sub>Real-time • Transformer Models</sub>
+    <sub>实时检测 · Transformer 模型</sub>
   </td>
   <td align="center" width="33%">
-    <h3>📡 Network Traffic Analysis</h3>
-    <sub>Packet Inspection • Flow Analysis</sub>
+    <h3>📡 网络流量分析</h3>
+    <sub>数据包检测 · 流量分析</sub>
     <br/>
-    <sub>Wireshark • tcpdump • Zeek</sub>
+    <sub>Wireshark · tcpdump · Zeek</sub>
   </td>
 </tr>
 <tr>
   <td align="center">
-    <h3>🚨 Intrusion Detection</h3>
-    <sub>Signature-based • Anomaly-based</sub>
+    <h3>🚨 入侵检测</h3>
+    <sub>基于签名 · 基于异常</sub>
     <br/>
-    <sub>Snort • Suricata • Custom Rules</sub>
+    <sub>Snort · Suricata · 自定义规则</sub>
   </td>
   <td align="center">
-    <h3>📊 Log Mining</h3>
-    <sub>ELK Stack • Pattern Recognition</sub>
+    <h3>📊 日志挖掘</h3>
+    <sub>ELK Stack · 模式识别</sub>
     <br/>
-    <sub>Security Event Correlation</sub>
+    <sub>安全事件关联分析</sub>
   </td>
   <td align="center">
-    <h3>🤖 AI-based Detection</h3>
-    <sub>Transformer • NLP • Anomaly Detection</sub>
+    <h3>🤖 AI 安全检测</h3>
+    <sub>Transformer · NLP · 异常检测</sub>
     <br/>
-    <sub>Dataset Curation • Model Optimization</sub>
+    <sub>数据集构建 · 模型优化</sub>
   </td>
 </tr>
 </table>
@@ -192,14 +209,14 @@ currently:
 <!-- ============================================ -->
 <div align="center">
 
-## 🚀 Projects
+## 🚀 项目展示
 
 <table>
 <tr>
   <td width="50%">
-    <h3 align="center">🔍 Transformer SQL Injection Detection</h3>
+    <h3 align="center">🔍 Transformer SQL 注入检测系统</h3>
     <p align="center">
-      A lightweight Transformer-based SQL injection anomaly detection system designed for OpenWrt nginx log analysis. Uses self-attention mechanisms to detect malicious SQL patterns in HTTP traffic in real time.
+      基于轻量级 Transformer 的 SQL 注入异常检测系统，专为 OpenWrt nginx 日志分析设计。利用自注意力机制实时检测 HTTP 流量中的恶意 SQL 模式。
     </p>
     <p align="center">
       <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white" alt="PyTorch" />
@@ -209,9 +226,9 @@ currently:
     </p>
   </td>
   <td width="50%">
-    <h3 align="center">🌐 OpenWrt Security Gateway</h3>
+    <h3 align="center">🌐 OpenWrt 安全网关</h3>
     <p align="center">
-      Custom router firmware and network security gateway based on OpenWrt. Features iptables rule management, traffic filtering, DNS sinkhole, and FRP tunnel VPN穿透 capabilities.
+      基于 OpenWrt 的定制路由器固件与网络安全网关。包含 iptables 规则管理、流量过滤、DNS 沉洞以及 FRP 隧道穿透功能。
     </p>
     <p align="center">
       <img src="https://img.shields.io/badge/OpenWrt-00B5E2?style=flat-square&logo=openwrt&logoColor=white" alt="OpenWrt" />
@@ -223,9 +240,9 @@ currently:
 </tr>
 <tr>
   <td width="50%">
-    <h3 align="center">🐳 Docker Security Lab</h3>
+    <h3 align="center">🐳 Docker 安全实验环境</h3>
     <p align="center">
-      Containerized security testing environment with pre-configured vulnerable applications, traffic monitoring tools, and automated attack-defense scenarios. Orchestrated with Docker Compose for rapid deployment.
+      容器化安全测试环境，预置漏洞应用、流量监控工具和自动化攻防场景。基于 Docker Compose 编排，快速部署。
     </p>
     <p align="center">
       <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white" alt="Docker" />
@@ -235,9 +252,9 @@ currently:
     </p>
   </td>
   <td width="50%">
-    <h3 align="center">📚 AstrBot Knowledge Base</h3>
+    <h3 align="center">📚 AstrBot 知识库</h3>
     <p align="center">
-      AI assistant knowledge management system with intelligent document retrieval, RAG pipeline, and multi-format data parsing. Designed for cybersecurity knowledge organization and quick reference.
+      AI 助手知识管理系统，具备智能文档检索、RAG 管道和多格式数据解析能力。专为网络安全知识整理与快速查阅设计。
     </p>
     <p align="center">
       <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python" />
@@ -253,58 +270,10 @@ currently:
 
 <br />
 
----
 
-<br />
-
-<!-- ============================================ -->
-<!-- GITHUB STATS                                 -->
-<!-- ============================================ -->
-<div align="center">
-
-## 📊 GitHub Stats
-
-<a href="https://github.com/Winter21c">
-  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=Winter21c&show_icons=true&theme=radical&hide_border=true&bg_color=0D1117&title_color=00FF41&icon_color=00D4FF&text_color=C9D1D9&border_color=30363D&include_all_commits=true&count_private=true" alt="GitHub Stats" />
-</a>
-<a href="https://github.com/Winter21c">
-  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Winter21c&layout=compact&theme=radical&hide_border=true&bg_color=0D1117&title_color=00FF41&text_color=C9D1D9&border_color=30363D&langs_count=8" alt="Top Languages" />
-</a>
-
-<br />
-
-<a href="https://github.com/Winter21c">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Winter21c&theme=radical&hide_border=true&background=0D1117&stroke=00FF41&ring=00D4FF&fire=FFB800&currStreakNum=C9D1D9&sideNums=C9D1D9&currStreakLabel=00FF41&sideLabels=8B949E&dates=8B949E" alt="GitHub Streak" />
-</a>
-
-</div>
-
-<br />
 
 ---
 
-<br />
-
-<!-- ============================================ -->
-<!-- SNAKE ANIMATION                              -->
-<!-- ============================================ -->
-<div align="center">
-
-## 🐍 Contribution Snake
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Winter21c/Winter21c/output/github-contribution-grid-snake-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Winter21c/Winter21c/output/github-contribution-grid-snake.svg" />
-  <img alt="GitHub Contribution Snake" src="https://raw.githubusercontent.com/Winter21c/Winter21c/output/github-contribution-grid-snake-dark.svg" />
-</picture>
-
-</div>
-
-<br />
-
----
-
-<br />
 
 <!-- ============================================ -->
 <!-- FOOTER SVG                                   -->
