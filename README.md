@@ -12,7 +12,7 @@
 <!-- ============================================ -->
 <div align="center">
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=28&duration=3000&pause=1000&color=00FF41&background=0D111700&center=true&vCenter=true&width=800&lines=%E4%BD%A0%E5%A5%BD%EF%BC%8C%E6%88%91%E6%98%AF+Winter+%F0%9F%96%96;%E7%BD%91%E7%BB%9C%E5%AE%89%E5%85%A8%E4%B8%8E%E6%89%A7%E6%B3%95%E4%B8%93%E4%B8%9A%E5%AD%A6%E7%94%9F+%F0%9F%94%90;Linux+%E7%88%B1%E5%A5%BD%E8%80%85+%F0%9F%90%A7;%E5%AE%89%E5%85%A8%E7%A0%94%E7%A9%B6%E5%91%98+%F0%9F%9B%A1%EF%B8%8F;OpenWrt+%E8%B4%A1%E7%8C%AE%E8%80%85+%F0%9F%8C%90;AI+%E5%AE%89%E5%85%A8%E6%8E%A2%E7%B4%A2%E8%80%85+%F0%9F%A4%96)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=28&duration=3000&pause=1000&color=00FF41&background=0D111700&center=true&vCenter=true&width=800&lines=%E4%BD%A0%E5%A5%BD%EF%BC%8C%E6%88%91%E6%98%AF%20%E5%AD%A4%E9%97%AE%E5%B0%98%20%F0%9F%96%96;%E7%BD%91%E7%BB%9C%E5%AE%89%E5%85%A8%E4%B8%8E%E6%89%A7%E6%B3%95%E4%B8%93%E4%B8%9A%E5%AD%A6%E7%94%9F%20%F0%9F%94%90;Linux%20%E7%88%B1%E5%A5%BD%E8%80%85%20%F0%9F%90%A7;%E5%AE%89%E5%85%A8%E7%A0%94%E7%A9%B6%E5%91%98%20%F0%9F%9B%A1%EF%B8%8F;OpenWrt%20%E8%B4%A1%E7%8C%AE%E8%80%85%20%F0%9F%8C%90;AI%20%E5%AE%89%E5%85%A8%E6%8E%A2%E7%B4%A2%E8%80%85%20%F0%9F%A4%96)](https://git.io/typing-svg)
 
 </div>
 
@@ -37,9 +37,7 @@
 ```yaml
 winter@github:~$ cat /etc/profile
 
-用户名        : Winter
-身份          : 网络安全学生
-院校          : 网络安全与执法
+用户名        : 孤问尘
 所在地        : 中国
 
 研究方向:

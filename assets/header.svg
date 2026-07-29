@@ -76,7 +76,7 @@
   </circle>
 
   <!-- Terminal title text -->
-  <text x="85" y="23" fill="#8b949e" font-family="monospace" font-size="12">winter@github:~</text>
+  <text x="85" y="23" fill="#8b949e" font-family="monospace" font-size="12">guwenchen@github:~</text>
 
   <!-- Scan line overlay -->
   <rect width="900" height="300" rx="12" ry="12" fill="url(#scanlines)" />
@@ -88,38 +88,38 @@
     <tspan fill="#00d4ff">neofetch</tspan>
   </text>
 
-  <!-- Main Title: "Winter" -->
-  <text x="40" y="135" fill="url(#titleGrad)" font-family="monospace" font-size="64" font-weight="bold" filter="url(#softGlow)">
-    Winter
+  <!-- Main Title: "孤问尘" -->
+  <text x="40" y="135" fill="url(#titleGrad)" font-family="sans-serif" font-size="64" font-weight="bold" filter="url(#softGlow)">
+    孤问尘
   </text>
 
   <!-- Cursor blinking after title -->
-  <text x="255" y="135" fill="#00ff41" font-family="monospace" font-size="64" font-weight="bold">
+  <text x="240" y="135" fill="#00ff41" font-family="monospace" font-size="64" font-weight="bold">
     _
     <animate attributeName="opacity" values="1;0;1" dur="1s" repeatCount="indefinite" />
   </text>
 
   <!-- Subtitle -->
-  <text x="40" y="175" fill="url(#subGrad)" font-family="monospace" font-size="18" font-weight="bold" filter="url(#glow)">
-    Cyber Security Student
+  <text x="40" y="175" fill="url(#subGrad)" font-family="sans-serif" font-size="18" font-weight="bold" filter="url(#glow)">
+    网络安全与执法专业学生
   </text>
 
   <!-- Tag line -->
-  <text x="40" y="210" fill="#8b949e" font-family="monospace" font-size="14">
+  <text x="40" y="210" fill="#8b949e" font-family="sans-serif" font-size="14">
     <tspan fill="#00ff41">┌─</tspan>
     <tspan fill="#00d4ff">Linux</tspan>
     <tspan fill="#8b949e"> │ </tspan>
     <tspan fill="#00d4ff">OpenWrt</tspan>
     <tspan fill="#8b949e"> │ </tspan>
-    <tspan fill="#00d4ff">AI Security</tspan>
+    <tspan fill="#00d4ff">AI 安全</tspan>
     <tspan fill="#8b949e"> │ </tspan>
-    <tspan fill="#00d4ff">Penetration Testing</tspan>
+    <tspan fill="#00d4ff">渗透测试</tspan>
   </text>
 
   <!-- Bottom separator -->
-  <text x="40" y="245" fill="#00ff41" font-family="monospace" font-size="14">
+  <text x="40" y="245" fill="#00ff41" font-family="sans-serif" font-size="14">
     <tspan fill="#00ff41">└─</tspan>
-    <tspan fill="#8b949e"> Network Security &amp; Law Enforcement Undergraduate</tspan>
+    <tspan fill="#8b949e"> 网络安全 • OpenWrt • AI 安全</tspan>
   </text>
 
   <!-- Decorative corner elements -->

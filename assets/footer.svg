@@ -48,16 +48,16 @@
     <tspan fill="#8b949e">➜</tspan>
     <tspan fill="#00ff41"> ~ </tspan>
     <tspan fill="#bd93f9">echo</tspan>
-    <tspan fill="#8b949e"> "Keep Learning, Keep Building, Keep Securing"</tspan>
+    <tspan fill="#8b949e"> "持续学习，持续构建，持续守护"</tspan>
   </text>
 
   <!-- Main message -->
-  <text x="450" y="80" fill="url(#textGrad)" font-family="monospace" font-size="20" font-weight="bold" text-anchor="middle" filter="url(#glow)">
-    Keep Learning, Keep Building, Keep Securing
+  <text x="450" y="80" fill="url(#textGrad)" font-family="sans-serif" font-size="20" font-weight="bold" text-anchor="middle" filter="url(#glow)">
+    持续学习，持续构建，持续守护
   </text>
 
   <!-- Blinking cursor -->
-  <text x="700" y="80" fill="#00ff41" font-family="monospace" font-size="20" font-weight="bold">
+  <text x="670" y="80" fill="#00ff41" font-family="monospace" font-size="20" font-weight="bold">
     _
     <animate attributeName="opacity" values="1;0;1" dur="1s" repeatCount="indefinite" />
   </text>
