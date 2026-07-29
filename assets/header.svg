@@ -101,7 +101,7 @@
 
   <!-- Subtitle -->
   <text x="40" y="175" fill="url(#subGrad)" font-family="sans-serif" font-size="18" font-weight="bold" filter="url(#glow)">
-    网络安全与执法专业学生
+    网络安全学生
   </text>
 
   <!-- Tag line -->
