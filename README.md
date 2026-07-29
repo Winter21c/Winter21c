@@ -3,7 +3,7 @@
 <!-- ============================================ -->
 <!-- HEADER SVG — 替换 Winter21c       -->
 <!-- ============================================ -->
-<img src="assets/header.svg" alt="Winter - 网络安全学生" width="100%" />
+<img src="https://raw.githubusercontent.com/Winter21c/Winter21c/main/assets/header.svg" alt="Winter - 网络安全学生" width="100%" />
 
 </div>
 
@@ -246,7 +246,7 @@ winter@github:~$ cat /etc/profile
 <!-- ============================================ -->
 <div align="center">
 
-<img src="assets/footer.svg" alt="持续学习，持续构建，持续守护" width="100%" />
+<img src="https://raw.githubusercontent.com/Winter21c/Winter21c/main/assets/footer.svg" alt="持续学习，持续构建，持续守护" width="100%" />
 
 </div>
 
