@@ -101,7 +101,7 @@ winter@github:~$ cat /etc/profile
 ### 编程语言
 
 [![Python](https://skillicons.dev/icons?i=python)](https://skillicons.dev)
-[![C++](https://skillicons.dev/icons?i=cpp)](https://skillicons.dev)
+[![C](https://skillicons.dev/icons?i=c)](https://skillicons.dev)
 [![Rust](https://skillicons.dev/icons?i=rust)](https://skillicons.dev)
 [![Bash](https://skillicons.dev/icons?i=bash)](https://skillicons.dev)
 [![Markdown](https://skillicons.dev/icons?i=markdown)](https://skillicons.dev)
