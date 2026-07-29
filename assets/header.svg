@@ -1,0 +1,173 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 300" width="900" height="300">
+  <defs>
+    <!-- Background gradient -->
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0a0a0a;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#0d1117;stop-opacity:1" />
+    </linearGradient>
+
+    <!-- Main title gradient: green → cyan -->
+    <linearGradient id="titleGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#00ff41">
+        <animate attributeName="stop-color" values="#00ff41;#00d4ff;#00ff41" dur="4s" repeatCount="indefinite" />
+      </stop>
+      <stop offset="50%" style="stop-color:#00d4ff">
+        <animate attributeName="stop-color" values="#00d4ff;#00ff41;#00d4ff" dur="4s" repeatCount="indefinite" />
+      </stop>
+      <stop offset="100%" style="stop-color:#bd93f9">
+        <animate attributeName="stop-color" values="#bd93f9;#00d4ff;#bd93f9" dur="4s" repeatCount="indefinite" />
+      </stop>
+    </linearGradient>
+
+    <!-- Scan line pattern -->
+    <pattern id="scanlines" patternUnits="userSpaceOnUse" width="4" height="4">
+      <rect width="4" height="2" fill="rgba(0,0,0,0.3)" />
+    </pattern>
+
+    <!-- Terminal glow filter -->
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="3" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <filter id="softGlow">
+      <feGaussianBlur stdDeviation="6" result="blur"/>
+      <feComposite in="SourceGraphic" in2="blur" operator="over"/>
+    </filter>
+
+    <!-- Border gradient -->
+    <linearGradient id="borderGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#00ff41;stop-opacity:0.6" />
+      <stop offset="50%" style="stop-color:#00d4ff;stop-opacity:0.3" />
+      <stop offset="100%" style="stop-color:#bd93f9;stop-opacity:0.6" />
+    </linearGradient>
+
+    <!-- Subtitle gradient -->
+    <linearGradient id="subGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#00d4ff" />
+      <stop offset="100%" style="stop-color:#00ff41" />
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="900" height="300" rx="12" ry="12" fill="url(#bgGrad)" />
+
+  <!-- Terminal border -->
+  <rect x="2" y="2" width="896" height="296" rx="10" ry="10" fill="none" stroke="url(#borderGrad)" stroke-width="2">
+    <animate attributeName="stroke-opacity" values="0.6;1;0.6" dur="3s" repeatCount="indefinite" />
+  </rect>
+
+  <!-- Terminal title bar -->
+  <rect x="2" y="2" width="896" height="32" rx="10" ry="10" fill="#161b22" />
+  <rect x="2" y="18" width="896" height="16" fill="#161b22" />
+
+  <!-- Terminal buttons -->
+  <circle cx="22" cy="18" r="6" fill="#ff5f56">
+    <animate attributeName="fill" values="#ff5f56;#ff5f5699;#ff5f56" dur="4s" repeatCount="indefinite" />
+  </circle>
+  <circle cx="42" cy="18" r="6" fill="#ffbd2e">
+    <animate attributeName="fill" values="#ffbd2e;#ffbd2e99;#ffbd2e" dur="4s" begin="0.5s" repeatCount="indefinite" />
+  </circle>
+  <circle cx="62" cy="18" r="6" fill="#27c93f">
+    <animate attributeName="fill" values="#27c93f;#27c93f99;#27c93f" dur="4s" begin="1s" repeatCount="indefinite" />
+  </circle>
+
+  <!-- Terminal title text -->
+  <text x="85" y="23" fill="#8b949e" font-family="monospace" font-size="12">winter@github:~</text>
+
+  <!-- Scan line overlay -->
+  <rect width="900" height="300" rx="12" ry="12" fill="url(#scanlines)" />
+
+  <!-- Terminal prompt: $ -->
+  <text x="40" y="78" fill="#00ff41" font-family="monospace" font-size="18" font-weight="bold" filter="url(#glow)">
+    <tspan fill="#8b949e">➜</tspan>
+    <tspan fill="#00ff41"> ~ </tspan>
+    <tspan fill="#00d4ff">neofetch</tspan>
+  </text>
+
+  <!-- Main Title: "Winter" -->
+  <text x="40" y="135" fill="url(#titleGrad)" font-family="monospace" font-size="64" font-weight="bold" filter="url(#softGlow)">
+    Winter
+  </text>
+
+  <!-- Cursor blinking after title -->
+  <text x="255" y="135" fill="#00ff41" font-family="monospace" font-size="64" font-weight="bold">
+    _
+    <animate attributeName="opacity" values="1;0;1" dur="1s" repeatCount="indefinite" />
+  </text>
+
+  <!-- Subtitle -->
+  <text x="40" y="175" fill="url(#subGrad)" font-family="monospace" font-size="18" font-weight="bold" filter="url(#glow)">
+    Cyber Security Student
+  </text>
+
+  <!-- Tag line -->
+  <text x="40" y="210" fill="#8b949e" font-family="monospace" font-size="14">
+    <tspan fill="#00ff41">┌─</tspan>
+    <tspan fill="#00d4ff">Linux</tspan>
+    <tspan fill="#8b949e"> │ </tspan>
+    <tspan fill="#00d4ff">OpenWrt</tspan>
+    <tspan fill="#8b949e"> │ </tspan>
+    <tspan fill="#00d4ff">AI Security</tspan>
+    <tspan fill="#8b949e"> │ </tspan>
+    <tspan fill="#00d4ff">Penetration Testing</tspan>
+  </text>
+
+  <!-- Bottom separator -->
+  <text x="40" y="245" fill="#00ff41" font-family="monospace" font-size="14">
+    <tspan fill="#00ff41">└─</tspan>
+    <tspan fill="#8b949e"> Network Security &amp; Law Enforcement Undergraduate</tspan>
+  </text>
+
+  <!-- Decorative corner elements -->
+  <!-- Top-left corner -->
+  <text x="12" y="55" fill="#00ff41" font-family="monospace" font-size="8" opacity="0.4">
+    <tspan x="12" dy="0">┌─────────────────────┐</tspan>
+    <tspan x="12" dy="12">│ SYS.INIT............ │</tspan>
+    <tspan x="12" dy="12">│ KERNEL.LOADED....... │</tspan>
+    <tspan x="12" dy="12">│ NET.SEC.ENABLED..... │</tspan>
+    <tspan x="12" dy="12">└─────────────────────┘</tspan>
+  </text>
+
+  <!-- Top-right: animated hex -->
+  <text x="760" y="60" fill="#bd93f9" font-family="monospace" font-size="10" opacity="0.4" text-anchor="end">
+    <tspan x="888" dy="0">DEAD:BEEF:CAFE:1337</tspan>
+    <tspan x="888" dy="14">C0DE:5EC:SN1FF:0WRT</tspan>
+    <tspan x="888" dy="14">BADC0DE:FEED:FACE</tspan>
+    <tspan x="888" dy="14">NMAP:SH3LL:R00T:B0X</tspan>
+  </text>
+
+  <!-- Bottom-right: version info -->
+  <text x="855" y="288" fill="#8b949e" font-family="monospace" font-size="9" opacity="0.5" text-anchor="end">
+    <tspan x="855">v25.07 — SECURE_CHANNEL</tspan>
+  </text>
+
+  <!-- Animated scan beam -->
+  <rect x="15" y="50" width="870" height="1" fill="#00ff41" opacity="0.15">
+    <animate attributeName="y" from="50" to="290" dur="6s" repeatCount="indefinite" />
+    <animate attributeName="opacity" values="0;0.3;0" dur="6s" repeatCount="indefinite" />
+  </rect>
+
+  <!-- Status indicator top-right -->
+  <circle cx="870" cy="18" r="4" fill="#00ff41">
+    <animate attributeName="fill" values="#00ff41;#27c93f;#00ff41" dur="2s" repeatCount="indefinite" />
+    <animate attributeName="opacity" values="1;0.4;1" dur="2s" repeatCount="indefinite" />
+  </circle>
+  <text x="855" y="22" fill="#00ff41" font-family="monospace" font-size="9" text-anchor="end" opacity="0.8">
+    <tspan>SECURE</tspan>
+    <animate attributeName="opacity" values="0.8;0.4;0.8" dur="2s" repeatCount="indefinite" />
+  </text>
+
+  <!-- Terminal prompt at bottom-left waiting for next command -->
+  <text x="40" y="285" fill="#00ff41" font-family="monospace" font-size="12">
+    <tspan fill="#8b949e">➜</tspan>
+    <tspan fill="#00ff41"> ~ </tspan>
+    <tspan fill="#bd93f9">./</tspan>
+    <tspan fill="#00d4ff">keep_hacking</tspan>
+    <tspan> _</tspan>
+    <animate attributeName="opacity" values="1;0;1" dur="1s" repeatCount="indefinite" />
+  </text>
+</svg>
