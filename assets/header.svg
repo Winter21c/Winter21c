@@ -1,173 +1,183 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 300" width="900" height="300">
+<svg xmlns="http://www.w3.org/2000/svg" width="840" height="260" viewBox="0 0 840 260">
   <defs>
-    <!-- Background gradient -->
+    <!-- Background Gradient -->
     <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" style="stop-color:#0a0a0a;stop-opacity:1" />
-      <stop offset="100%" style="stop-color:#0d1117;stop-opacity:1" />
+      <stop offset="0%" style="stop-color:#0a0a0a"/>
+      <stop offset="50%" style="stop-color:#0D1117"/>
+      <stop offset="100%" style="stop-color:#0a0f0a"/>
     </linearGradient>
 
-    <!-- Main title gradient: green → cyan -->
-    <linearGradient id="titleGrad" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" style="stop-color:#00ff41">
-        <animate attributeName="stop-color" values="#00ff41;#00d4ff;#00ff41" dur="4s" repeatCount="indefinite" />
+    <!-- Green to Cyan Gradient for Main Text -->
+    <linearGradient id="textGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#00FF41">
+        <animate attributeName="stop-color" values="#00FF41;#00D4FF;#00FF41" dur="4s" repeatCount="indefinite"/>
       </stop>
-      <stop offset="50%" style="stop-color:#00d4ff">
-        <animate attributeName="stop-color" values="#00d4ff;#00ff41;#00d4ff" dur="4s" repeatCount="indefinite" />
+      <stop offset="50%" style="stop-color:#00D4FF">
+        <animate attributeName="stop-color" values="#00D4FF;#00FF41;#00D4FF" dur="4s" repeatCount="indefinite"/>
       </stop>
-      <stop offset="100%" style="stop-color:#bd93f9">
-        <animate attributeName="stop-color" values="#bd93f9;#00d4ff;#bd93f9" dur="4s" repeatCount="indefinite" />
+      <stop offset="100%" style="stop-color:#00FF41">
+        <animate attributeName="stop-color" values="#00FF41;#00D4FF;#00FF41" dur="4s" repeatCount="indefinite"/>
       </stop>
     </linearGradient>
 
-    <!-- Scan line pattern -->
-    <pattern id="scanlines" patternUnits="userSpaceOnUse" width="4" height="4">
-      <rect width="4" height="2" fill="rgba(0,0,0,0.3)" />
-    </pattern>
+    <!-- Subtitle Gradient -->
+    <linearGradient id="subGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#58A6FF"/>
+      <stop offset="100%" style="stop-color:#8B949E"/>
+    </linearGradient>
 
-    <!-- Terminal glow filter -->
-    <filter id="glow">
-      <feGaussianBlur stdDeviation="3" result="coloredBlur"/>
+    <!-- Glow Filter -->
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feComposite in="SourceGraphic" in2="blur" operator="over"/>
+    </filter>
+
+    <!-- Strong Glow -->
+    <filter id="glowStrong" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="6" result="blur"/>
       <feMerge>
-        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="blur"/>
         <feMergeNode in="SourceGraphic"/>
       </feMerge>
     </filter>
 
-    <filter id="softGlow">
-      <feGaussianBlur stdDeviation="6" result="blur"/>
-      <feComposite in="SourceGraphic" in2="blur" operator="over"/>
-    </filter>
+    <!-- Scan Line Pattern -->
+    <pattern id="scanlines" width="4" height="4" patternUnits="userSpaceOnUse">
+      <rect width="4" height="2" fill="rgba(0,0,0,0.3)"/>
+    </pattern>
 
-    <!-- Border gradient -->
-    <linearGradient id="borderGrad" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" style="stop-color:#00ff41;stop-opacity:0.6" />
-      <stop offset="50%" style="stop-color:#00d4ff;stop-opacity:0.3" />
-      <stop offset="100%" style="stop-color:#bd93f9;stop-opacity:0.6" />
-    </linearGradient>
-
-    <!-- Subtitle gradient -->
-    <linearGradient id="subGrad" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" style="stop-color:#00d4ff" />
-      <stop offset="100%" style="stop-color:#00ff41" />
-    </linearGradient>
+    <!-- Grid Pattern -->
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="rgba(0,255,65,0.03)" stroke-width="0.5"/>
+    </pattern>
   </defs>
 
   <!-- Background -->
-  <rect width="900" height="300" rx="12" ry="12" fill="url(#bgGrad)" />
+  <rect width="840" height="260" fill="url(#bgGrad)"/>
+  <rect width="840" height="260" fill="url(#grid)"/>
 
-  <!-- Terminal border -->
-  <rect x="2" y="2" width="896" height="296" rx="10" ry="10" fill="none" stroke="url(#borderGrad)" stroke-width="2">
-    <animate attributeName="stroke-opacity" values="0.6;1;0.6" dur="3s" repeatCount="indefinite" />
+  <!-- Scan Line Overlay -->
+  <rect width="840" height="260" fill="url(#scanlines)" opacity="0.6"/>
+
+  <!-- Horizontal Scan Line Animation -->
+  <rect width="840" height="1.5" fill="rgba(0,255,65,0.15)" y="0">
+    <animate attributeName="y" from="0" to="260" dur="3s" repeatCount="indefinite"/>
   </rect>
 
-  <!-- Terminal title bar -->
-  <rect x="2" y="2" width="896" height="32" rx="10" ry="10" fill="#161b22" />
-  <rect x="2" y="18" width="896" height="16" fill="#161b22" />
+  <!-- Top Border Line -->
+  <line x1="30" y1="20" x2="810" y2="20" stroke="rgba(0,255,65,0.3)" stroke-width="1"/>
+  <line x1="30" y1="22" x2="810" y2="22" stroke="rgba(0,212,255,0.15)" stroke-width="0.5"/>
 
-  <!-- Terminal buttons -->
-  <circle cx="22" cy="18" r="6" fill="#ff5f56">
-    <animate attributeName="fill" values="#ff5f56;#ff5f5699;#ff5f56" dur="4s" repeatCount="indefinite" />
-  </circle>
-  <circle cx="42" cy="18" r="6" fill="#ffbd2e">
-    <animate attributeName="fill" values="#ffbd2e;#ffbd2e99;#ffbd2e" dur="4s" begin="0.5s" repeatCount="indefinite" />
-  </circle>
-  <circle cx="62" cy="18" r="6" fill="#27c93f">
-    <animate attributeName="fill" values="#27c93f;#27c93f99;#27c93f" dur="4s" begin="1s" repeatCount="indefinite" />
-  </circle>
+  <!-- Bottom Border Line -->
+  <line x1="30" y1="240" x2="810" y2="240" stroke="rgba(0,255,65,0.3)" stroke-width="1"/>
+  <line x1="30" y1="238" x2="810" y2="238" stroke="rgba(0,212,255,0.15)" stroke-width="0.5"/>
 
-  <!-- Terminal title text -->
-  <text x="85" y="23" fill="#8b949e" font-family="monospace" font-size="12">guwenchen@github:~</text>
+  <!-- Decorative Corner Elements - Top Left -->
+  <text x="28" y="17" font-family="monospace" font-size="8" fill="rgba(0,255,65,0.4)">┌─[root@winter]─[~/]</text>
 
-  <!-- Scan line overlay -->
-  <rect width="900" height="300" rx="12" ry="12" fill="url(#scanlines)" />
-
-  <!-- Terminal prompt: $ -->
-  <text x="40" y="78" fill="#00ff41" font-family="monospace" font-size="18" font-weight="bold" filter="url(#glow)">
-    <tspan fill="#8b949e">➜</tspan>
-    <tspan fill="#00ff41"> ~ </tspan>
-    <tspan fill="#00d4ff">neofetch</tspan>
+  <!-- Decorative Corner - Top Right -->
+  <text x="650" y="17" font-family="monospace" font-size="8" fill="rgba(0,212,255,0.4)">
+    [██████████] 100%
+    <animate attributeName="opacity" values="1;0.3;1" dur="2s" repeatCount="indefinite"/>
   </text>
 
-  <!-- Main Title: "孤问尘" -->
-  <text x="40" y="135" fill="url(#titleGrad)" font-family="sans-serif" font-size="64" font-weight="bold" filter="url(#softGlow)">
-    孤问尘
+  <!-- Left Side Hex Decorations -->
+  <text x="35" y="60" font-family="monospace" font-size="9" fill="rgba(0,255,65,0.15)">0xdead</text>
+  <text x="35" y="75" font-family="monospace" font-size="9" fill="rgba(0,212,255,0.12)">0xbeef</text>
+  <text x="35" y="90" font-family="monospace" font-size="9" fill="rgba(0,255,65,0.1)">0xcafe</text>
+  <text x="35" y="105" font-family="monospace" font-size="9" fill="rgba(0,212,255,0.08)">0xbabe</text>
+
+  <!-- Right Side Terminal Decorations -->
+  <text x="750" y="185" font-family="monospace" font-size="9" fill="rgba(0,212,255,0.12)">[ OK ]</text>
+  <text x="750" y="200" font-family="monospace" font-size="9" fill="rgba(0,255,65,0.15)">[ OK ]</text>
+  <text x="750" y="215" font-family="monospace" font-size="9" fill="rgba(0,255,65,0.1)">[ OK ]</text>
+
+  <!-- Prompt Symbol -->
+  <text x="140" y="90" font-family="monospace" font-size="14" fill="rgba(0,255,65,0.6)">
+    #
+    <animate attributeName="opacity" values="0.6;0.2;0.6" dur="1.5s" repeatCount="indefinite"/>
   </text>
 
-  <!-- Cursor blinking after title -->
-  <text x="240" y="135" fill="#00ff41" font-family="monospace" font-size="64" font-weight="bold">
-    _
-    <animate attributeName="opacity" values="1;0;1" dur="1s" repeatCount="indefinite" />
+  <!-- Main Title "WINTER" -->
+  <text x="160" y="95" font-family="'Courier New', monospace" font-size="48" font-weight="bold" fill="url(#textGrad)" filter="url(#glowStrong)" letter-spacing="8">
+    WINTER
   </text>
+
+  <!-- Blinking Terminal Cursor -->
+  <rect x="420" y="60" width="3" height="40" fill="#00FF41">
+    <animate attributeName="opacity" values="1;0;1" dur="1s" repeatCount="indefinite"/>
+  </rect>
 
   <!-- Subtitle -->
-  <text x="40" y="175" fill="url(#subGrad)" font-family="sans-serif" font-size="18" font-weight="bold" filter="url(#glow)">
-    网络安全学生
+  <text x="160" y="128" font-family="'Courier New', monospace" font-size="16" fill="url(#subGrad)" filter="url(#glow)" letter-spacing="3">
+    Cyber Security Student
   </text>
 
-  <!-- Tag line -->
-  <text x="40" y="210" fill="#8b949e" font-family="sans-serif" font-size="14">
-    <tspan fill="#00ff41">┌─</tspan>
-    <tspan fill="#00d4ff">Linux</tspan>
-    <tspan fill="#8b949e"> │ </tspan>
-    <tspan fill="#00d4ff">OpenWrt</tspan>
-    <tspan fill="#8b949e"> │ </tspan>
-    <tspan fill="#00d4ff">AI 安全</tspan>
-    <tspan fill="#8b949e"> │ </tspan>
-    <tspan fill="#00d4ff">渗透测试</tspan>
+  <!-- Underline decoration -->
+  <line x1="160" y1="135" x2="400" y2="135" stroke="rgba(0,255,65,0.25)" stroke-width="1"/>
+
+  <!-- Tagline -->
+  <text x="160" y="165" font-family="'Courier New', monospace" font-size="12" fill="#8B949E" letter-spacing="2">
+    Linux
+  </text>
+  <text x="215" y="165" font-family="'Courier New', monospace" font-size="12" fill="rgba(0,255,65,0.4)">|</text>
+  <text x="230" y="165" font-family="'Courier New', monospace" font-size="12" fill="#8B949E" letter-spacing="2">
+    OpenWrt
+  </text>
+  <text x="305" y="165" font-family="'Courier New', monospace" font-size="12" fill="rgba(0,255,65,0.4)">|</text>
+  <text x="320" y="165" font-family="'Courier New', monospace" font-size="12" fill="#8B949E" letter-spacing="2">
+    Docker
+  </text>
+  <text x="390" y="165" font-family="'Courier New', monospace" font-size="12" fill="rgba(0,255,65,0.4)">|</text>
+  <text x="405" y="165" font-family="'Courier New', monospace" font-size="12" fill="#8B949E" letter-spacing="2">
+    AI Security
   </text>
 
-  <!-- Bottom separator -->
-  <text x="40" y="245" fill="#00ff41" font-family="sans-serif" font-size="14">
-    <tspan fill="#00ff41">└─</tspan>
-    <tspan fill="#8b949e"> 网络安全 • OpenWrt • AI 安全</tspan>
+  <!-- Skills Sub-tagline -->
+  <text x="160" y="190" font-family="monospace" font-size="10" fill="rgba(0,212,255,0.5)" letter-spacing="1">
+    Pentesting
+  </text>
+  <text x="250" y="190" font-family="monospace" font-size="10" fill="rgba(0,212,255,0.3)">|</text>
+  <text x="260" y="190" font-family="monospace" font-size="10" fill="rgba(0,212,255,0.5)" letter-spacing="1">
+    Network Security
+  </text>
+  <text x="390" y="190" font-family="monospace" font-size="10" fill="rgba(0,212,255,0.3)">|</text>
+  <text x="400" y="190" font-family="monospace" font-size="10" fill="rgba(0,212,255,0.5)" letter-spacing="1">
+    Embedded Linux
   </text>
 
-  <!-- Decorative corner elements -->
-  <!-- Top-left corner -->
-  <text x="12" y="55" fill="#00ff41" font-family="monospace" font-size="8" opacity="0.4">
-    <tspan x="12" dy="0">┌─────────────────────┐</tspan>
-    <tspan x="12" dy="12">│ SYS.INIT............ │</tspan>
-    <tspan x="12" dy="12">│ KERNEL.LOADED....... │</tspan>
-    <tspan x="12" dy="12">│ NET.SEC.ENABLED..... │</tspan>
-    <tspan x="12" dy="12">└─────────────────────┘</tspan>
+  <!-- Terminal prompt at bottom -->
+  <text x="30" y="232" font-family="monospace" font-size="10" fill="rgba(0,255,65,0.5)">
+    $ whoami
+  </text>
+  <text x="100" y="232" font-family="monospace" font-size="10" fill="rgba(0,212,255,0.6)">
+    winter.security.student
   </text>
 
-  <!-- Top-right: animated hex -->
-  <text x="760" y="60" fill="#bd93f9" font-family="monospace" font-size="10" opacity="0.4" text-anchor="end">
-    <tspan x="888" dy="0">DEAD:BEEF:CAFE:1337</tspan>
-    <tspan x="888" dy="14">C0DE:5EC:SN1FF:0WRT</tspan>
-    <tspan x="888" dy="14">BADC0DE:FEED:FACE</tspan>
-    <tspan x="888" dy="14">NMAP:SH3LL:R00T:B0X</tspan>
-  </text>
-
-  <!-- Bottom-right: version info -->
-  <text x="855" y="288" fill="#8b949e" font-family="monospace" font-size="9" opacity="0.5" text-anchor="end">
-    <tspan x="855">v25.07 — SECURE_CHANNEL</tspan>
-  </text>
-
-  <!-- Animated scan beam -->
-  <rect x="15" y="50" width="870" height="1" fill="#00ff41" opacity="0.15">
-    <animate attributeName="y" from="50" to="290" dur="6s" repeatCount="indefinite" />
-    <animate attributeName="opacity" values="0;0.3;0" dur="6s" repeatCount="indefinite" />
-  </rect>
-
-  <!-- Status indicator top-right -->
-  <circle cx="870" cy="18" r="4" fill="#00ff41">
-    <animate attributeName="fill" values="#00ff41;#27c93f;#00ff41" dur="2s" repeatCount="indefinite" />
-    <animate attributeName="opacity" values="1;0.4;1" dur="2s" repeatCount="indefinite" />
+  <!-- Animated particle dots -->
+  <circle cx="70" cy="45" r="1.2" fill="#00FF41" opacity="0">
+    <animate attributeName="opacity" values="0;0.8;0" dur="3s" begin="0s" repeatCount="indefinite"/>
   </circle>
-  <text x="855" y="22" fill="#00ff41" font-family="monospace" font-size="9" text-anchor="end" opacity="0.8">
-    <tspan>SECURE</tspan>
-    <animate attributeName="opacity" values="0.8;0.4;0.8" dur="2s" repeatCount="indefinite" />
-  </text>
-
-  <!-- Terminal prompt at bottom-left waiting for next command -->
-  <text x="40" y="285" fill="#00ff41" font-family="monospace" font-size="12">
-    <tspan fill="#8b949e">➜</tspan>
-    <tspan fill="#00ff41"> ~ </tspan>
-    <tspan fill="#bd93f9">./</tspan>
-    <tspan fill="#00d4ff">keep_hacking</tspan>
-    <tspan> _</tspan>
-    <animate attributeName="opacity" values="1;0;1" dur="1s" repeatCount="indefinite" />
-  </text>
+  <circle cx="550" cy="35" r="1" fill="#00D4FF" opacity="0">
+    <animate attributeName="opacity" values="0;0.7;0" dur="2.5s" begin="0.5s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="620" cy="50" r="1.2" fill="#00FF41" opacity="0">
+    <animate attributeName="opacity" values="0;0.6;0" dur="3.5s" begin="1s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="700" cy="40" r="1" fill="#00D4FF" opacity="0">
+    <animate attributeName="opacity" values="0;0.8;0" dur="2.8s" begin="1.5s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="480" cy="80" r="1" fill="#00FF41" opacity="0">
+    <animate attributeName="opacity" values="0;0.5;0" dur="4s" begin="0.8s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="800" cy="55" r="1" fill="#00D4FF" opacity="0">
+    <animate attributeName="opacity" values="0;0.7;0" dur="3.2s" begin="2s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="30" cy="150" r="1" fill="#00FF41" opacity="0">
+    <animate attributeName="opacity" values="0;0.6;0" dur="2.6s" begin="0.3s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="810" cy="130" r="1" fill="#00D4FF" opacity="0">
+    <animate attributeName="opacity" values="0;0.5;0" dur="3.8s" begin="1.2s" repeatCount="indefinite"/>
+  </circle>
 </svg>

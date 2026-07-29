@@ -27,7 +27,7 @@ jobs:
       - name: Checkout Repository
         uses: actions/checkout@v4
 
-      # Step 2: Generate the dark mode snake animation
+      # Step 2: Generate the dark theme snake animation
       - name: Generate Snake (Dark)
         uses: Platane/snk/svg-only@v3
         with:
@@ -35,13 +35,13 @@ jobs:
           outputs: |
             dist/github-contribution-grid-snake-dark.svg?palette=github-dark
 
-      # Step 3: Generate the light mode snake animation
+      # Step 3: Generate the light theme snake animation
       - name: Generate Snake (Light)
         uses: Platane/snk/svg-only@v3
         with:
           github_user_name: ${{ github.repository_owner }}
           outputs: |
-            dist/github-contribution-grid-snake.svg?color_snake=orange&color_dots=#bfd6f6,#8dbdff,#64a1f4,#4b91f1,#3c7dd9
+            dist/github-contribution-grid-snake.svg?color_snake=#00FF41&color_dots=#bfd6f6,#8dbdff,#64a1f4,#4b91f1,#3c7dd9
 
       # Step 4: Push the generated SVGs to the output branch
       - name: Push Snake SVGs to output branch
