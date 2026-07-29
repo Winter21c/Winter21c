@@ -61,7 +61,7 @@ winter@github:~$ cat /etc/profile
 ------------------------------------
 
 研究方向:
-  - 🎓 网络安全与执法专业学生
+  - 🎓 网安专业学生
   - 🐧 Linux 爱好者 (Arch, Debian, Ubuntu Server)
   - 🔐 渗透测试与 Web 安全
   - 🌐 OpenWrt 路由器固件与网络设备
