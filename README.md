@@ -3,7 +3,7 @@
 <!-- ============================================ -->
 <!-- HEADER SVG — 替换 Winter21c       -->
 <!-- ============================================ -->
-<img src="https://raw.githubusercontent.com/Winter21c/Winter21c/main/assets/header.svg" alt="Winter - 网络安全学生" width="100%" />
+<img src="https://raw.githubusercontent.com/Winter21c/Winter21c/main/assets/header.svg" alt="Winter" width="100%" />
 
 </div>
 
