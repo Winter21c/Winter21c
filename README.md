@@ -97,6 +97,11 @@ winter@github:~$ cat /etc/profile
 [![Arch](https://skillicons.dev/icons?i=arch)](https://skillicons.dev)
 [![Ubuntu](https://skillicons.dev/icons?i=ubuntu)](https://skillicons.dev)
 [![Debian](https://skillicons.dev/icons?i=debian)](https://skillicons.dev)
+[![Windows](https://skillicons.dev/icons?i=windows)](https://skillicons.dev)
+[![macOS](https://skillicons.dev/icons?i=apple)](https://skillicons.dev)
+<br/>
+![Deepin](https://img.shields.io/badge/Deepin-007CFF?style=for-the-badge&logo=deepin&logoColor=white)
+![FydeOS](https://img.shields.io/badge/FydeOS-FF4088?style=for-the-badge&logo=chromium&logoColor=white)
 
 ### 编程语言
 
