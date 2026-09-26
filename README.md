@@ -1,17 +1,33 @@
-<div align="center">
+<img align="right" src="https://github-readme-stats-fast.vercel.app/api?username=Winter21c&show_icons=true&hide_border=true&icon_color=00d4ff&title_color=00d4ff&text_color=c9d1d9&bg_color=0d1117&custom_title=Winter&include_all_commits=true&count_private=true">
 
-<!-- HEADER SVG -->
-<img src="https://raw.githubusercontent.com/Winter21c/Winter21c/main/assets/header.svg" alt="Winter" width="100%" />
+# 孤问尘 (Winter21c) 🔭
 
-<!-- TYPING SVG -->
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=26&duration=3000&pause=1000&color=00FF41&background=0D111700&center=true&vCenter=true&width=800&lines=Hi%2C+I'm+Winter+%F0%9F%96%96;Network+Security+Student+%F0%9F%94%90;Linux+Enthusiast+%F0%9F%90%A7;Security+Researcher+%F0%9F%9B%A1%EF%B8%8F;OpenWrt+User+%F0%9F%8C%90;AI+Security+Explorer+%F0%9F%A4%96)](https://git.io/typing-svg)
+### Hi there 👋 This... It's me? Okay.
 
-<!-- VISITOR BADGE -->
-[![Profile Views](https://komarev.com/ghpvc/?username=Winter21c&color=00ff41&style=flat-square&label=VISITORS)](https://github.com/Winter21c)
+💬 a.k.a. Winter / 孤问尘。
+> ⚡ Web安全 · AI安全(Transformer) · OpenWrt 固件 | Linux 爱好者
 
-</div>
+<img align="right" src="https://github-readme-stats-fast.vercel.app/api/top-langs?username=Winter21c&hide_border=true&layout=compact&title_color=00d4ff&text_color=c9d1d9&bg_color=0d1117&langs_count=8">
 
-<!-- SNAKE -->
+- 一名网络安全方向的学生 🎓
+- zh-CN / en-US
+- Web 安全 / AI 安全 / 固件定制与网络设备
+- Linux 日常用户（Arch · Ubuntu）
+- OpenWrt 固件构建与 x86_64 软路由玩家
+- Docker 容器化与自托管爱好者
+- 📷 摄影爱好者
+- 喜欢把东西拆开，搞清楚它到底怎么跑起来的
+
+💖 Let's give it a shot! Go on and catch the dream!
+
+🤔 下面是我的常用技术栈和一些自己折腾的项目，欢迎点个 **Follow** 一起交流。
+
+<img align="right" src="https://komarev.com/ghpvc/?username=Winter21c&color=00d4ff&style=flat-square&label=VISITORS">
+
+<br clear="all" />
+
+## 🐍 Contribution Snake
+
 <div align="center">
 
 <picture>
@@ -22,161 +38,66 @@
 
 </div>
 
----
+## 🌱 编程语言
 
-<!-- ABOUT ME -->
-## 👨‍💻 关于我
+![Python](https://img.shields.io/badge/-Python-3776ab?style=flat-square&logo=python&logoColor=fff)
+![C](https://img.shields.io/badge/-C-a8b9cc?style=flat-square&logo=C&logoColor=fff)
+![Rust](https://img.shields.io/badge/-Rust-000000?style=flat-square&logo=rust&logoColor=fff)
+![Shell](https://img.shields.io/badge/-Shell-4eaa25?style=flat-square&logo=gnu%20bash&logoColor=fff)
+![Markdown](https://img.shields.io/badge/-Markdown-000000?style=flat-square&logo=markdown&logoColor=fff)
+![SQL](https://img.shields.io/badge/-SQL-4479a1?style=flat-square&logo=mysql&logoColor=fff)
 
-```yaml
-winter@github:~$ cat /etc/profile
-------------------------------------
-昵称    : Winter/孤问尘
+## 💻 工作环境
 
-研究方向:
-  🎓 网安专业          🐧 Linux 爱好者 (Arch/Debian/Ubuntu)
-  🔐 渗透测试/Web安全    🌐 OpenWrt 固件与网络设备
-  🤖 AI 安全 (Transformer)  🐳 Docker 容器化安全
-  🛡️ SQL注入检测/流量分析  🔬 ARM Linux 嵌入式系统
+![Arch Linux](https://img.shields.io/badge/Arch%20Linux-1793d1?style=flat-square&logo=archlinux&logoColor=ffffff)
+![Ubuntu 26.04](https://img.shields.io/badge/Ubuntu%2026.04-dd4814?style=flat-square&logo=ubuntu&logoColor=ffffff)
+![Windows 11](https://img.shields.io/badge/Windows%2011-00adef?style=flat-square)
+![macOS 12 Monterey](https://img.shields.io/badge/macOS%2012%20Monterey-000000?style=flat-square&logo=apple&logoColor=ffffff)
+![OpenWrt](https://img.shields.io/badge/OpenWrt-00b5e2?style=flat-square&logo=openwrt&logoColor=ffffff)
 
-```
+## 📱 使用设备
 
----
+### 手机
 
-<!-- TECH STACK -->
-<div align="center">
+![Apple iPhone 13 mini](https://img.shields.io/badge/Apple%20iPhone%2013%20mini-a2aaad?style=flat-square&logo=apple&logoColor=ffffff)
+![Xiaomi 12S](https://img.shields.io/badge/Xiaomi%2012S-fd4900?style=flat-square&logo=xiaomi&logoColor=ffffff)
+![Xiaomi 15](https://img.shields.io/badge/Xiaomi%2015-fd4900?style=flat-square&logo=xiaomi&logoColor=ffffff)
 
-## 🛠 技术栈
+### 平板
 
-**操作系统**
+![Apple iPad Air 5](https://img.shields.io/badge/Apple%20iPad%20Air%205-a2aaad?style=flat-square&logo=apple&logoColor=ffffff)
 
-[![Linux](https://skillicons.dev/icons?i=linux)](https://skillicons.dev)
-[![Arch](https://skillicons.dev/icons?i=arch)](https://skillicons.dev)
-[![Ubuntu](https://skillicons.dev/icons?i=ubuntu)](https://skillicons.dev)
-[![Debian](https://skillicons.dev/icons?i=debian)](https://skillicons.dev)
-[![Windows](https://skillicons.dev/icons?i=windows)](https://skillicons.dev)
-[![macOS](https://skillicons.dev/icons?i=apple)](https://skillicons.dev)
+### 穿戴
 
+![Apple Watch Series 7](https://img.shields.io/badge/Apple%20Watch%20Series%207-a2aaad?style=flat-square&logo=apple&logoColor=ffffff)
+![Xiaomi Watch S4](https://img.shields.io/badge/Xiaomi%20Watch%20S4-fd4900?style=flat-square&logo=xiaomi&logoColor=ffffff)
+![Xiaomi Smart Band 11](https://img.shields.io/badge/Xiaomi%20Smart%20Band%2011-fd4900?style=flat-square&logo=xiaomi&logoColor=ffffff)
 
-**编程语言**
+### 电脑
 
-[![Python](https://skillicons.dev/icons?i=python)](https://skillicons.dev)
-[![C](https://skillicons.dev/icons?i=c)](https://skillicons.dev)
-[![Rust](https://skillicons.dev/icons?i=rust)](https://skillicons.dev)
-[![Bash](https://skillicons.dev/icons?i=bash)](https://skillicons.dev)
-[![Markdown](https://skillicons.dev/icons?i=markdown)](https://skillicons.dev)
+![Lenovo ThinkPad S2 Gen 8](https://img.shields.io/badge/Lenovo%20ThinkPad%20S2%20Gen%208-e2231a?style=flat-square&logo=lenovo&logoColor=ffffff)
+![HP OMEN 16](https://img.shields.io/badge/HP%20OMEN%2016-0096d6?style=flat-square&logo=hp&logoColor=ffffff)
 
-**开发运维**
+### 路由 / 网络
 
-[![Docker](https://skillicons.dev/icons?i=docker)](https://skillicons.dev)
-[![Nginx](https://skillicons.dev/icons?i=nginx)](https://skillicons.dev)
-[![Git](https://skillicons.dev/icons?i=git)](https://skillicons.dev)
-[![GitHub](https://skillicons.dev/icons?i=github)](https://skillicons.dev)
-[![PostgreSQL](https://skillicons.dev/icons?i=postgres)](https://skillicons.dev)
-[![MySQL](https://skillicons.dev/icons?i=mysql)](https://skillicons.dev)
+![Cudy TR3000](https://img.shields.io/badge/Cudy%20TR3000-334fb4?style=flat-square)
+![ZTE F50 5G UFi](https://img.shields.io/badge/ZTE%20F50%205G%20UFI-008fd5?style=flat-square)
+![M28C 5G CPE](https://img.shields.io/badge/M28C%205G%20CPE-4d4d4d?style=flat-square&logo=openwrt&logoColor=ffffff)
+![H29K 5G CPE](https://img.shields.io/badge/H29K%205G%20CPE-4d4d4d?style=flat-square&logo=openwrt&logoColor=ffffff)
 
-**安全工具**
+----
 
-![Wireshark](https://img.shields.io/badge/Wireshark-1679A7?style=flat-square&logo=wireshark&logoColor=white)
-![Burp Suite](https://img.shields.io/badge/Burp_Suite-FF6633?style=flat-square&logo=burp-suite&logoColor=white)
-![Metasploit](https://img.shields.io/badge/Metasploit-2596BE?style=flat-square&logo=metasploit&logoColor=white)
-![Nmap](https://img.shields.io/badge/Nmap-004B87?style=flat-square&logo=nmap&logoColor=white)
-![SQLMap](https://img.shields.io/badge/SQLMap-CC0000?style=flat-square&logo=sqlite&logoColor=white)
-![Hydra](https://img.shields.io/badge/Hydra-4285F4?style=flat-square&logo=hydra&logoColor=white)
+## 👯 来玩玩我折腾的一些项目：
 
-**AI/ML**
+<a href="https://github.com/Winter21c/immortalwrt-fusion">
+  <img align="left" src="https://github-readme-stats-fast.vercel.app/api/pin/?username=Winter21c&repo=immortalwrt-fusion&theme=github_dark&hide_border=true" />
+</a>
 
-![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white)
-![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=flat-square&logo=scikit-learn&logoColor=white)
-![Pandas](https://img.shields.io/badge/Pandas-150458?style=flat-square&logo=pandas&logoColor=white)
-![NumPy](https://img.shields.io/badge/NumPy-013243?style=flat-square&logo=numpy&logoColor=white)
-![Transformers](https://img.shields.io/badge/Transformers-FFD21E?style=flat-square&logo=huggingface&logoColor=black)
+<a href="https://github.com/Winter21c/fanchmwrt-istoreos">
+  <img align="left" src="https://github-readme-stats-fast.vercel.app/api/pin/?username=Winter21c&repo=fanchmwrt-istoreos&theme=github_dark&hide_border=true" />
+</a>
 
-**编辑器/终端**
-
-![Neovim](https://img.shields.io/badge/Neovim-57A143?style=flat-square&logo=neovim&logoColor=white)
-![VS Code](https://img.shields.io/badge/VS_Code-007ACC?style=flat-square&logo=visual-studio-code&logoColor=white)
-![Tmux](https://img.shields.io/badge/Tmux-1BB91F?style=flat-square&logo=tmux&logoColor=white)
-
-</div>
-
----
-
-<!-- SECURITY FOCUS -->
-<div align="center">
-
-## 🛡 安全研究方向
-
-<table>
-<tr>
-  <td align="center"><b>🌐 Web 安全</b><br/><sub>XSS · CSRF · SQLi · SSRF · RCE<br/>OWASP Top 10 · WAF 绕过</sub></td>
-  <td align="center"><b>🔍 SQL 注入检测</b><br/><sub>机器学习检测 · 日志解析<br/>实时 · Transformer 模型</sub></td>
-  <td align="center"><b>📡 网络流量分析</b><br/><sub>数据包检测 · 流量分析<br/>Wireshark · tcpdump · Zeek</sub></td>
-</tr>
-<tr>
-  <td align="center"><b>🚨 入侵检测</b><br/><sub>基于签名 · 基于异常<br/>Snort · Suricata · 自定义规则</sub></td>
-  <td align="center"><b>📊 日志挖掘</b><br/><sub>ELK Stack · 模式识别<br/>安全事件关联分析</sub></td>
-  <td align="center"><b>🤖 AI 安全检测</b><br/><sub>Transformer · NLP · 异常检测<br/>数据集构建 · 模型优化</sub></td>
-</tr>
-</table>
-
-</div>
-
----
-
-<!-- PROJECTS -->
-<div align="center">
-
-## 🚀 项目展示
-
-<table>
-<tr>
-  <td width="50%">
-    <b>🔍 Transformer SQL 注入检测系统</b><br/>
-    <sub>基于轻量级 Transformer 的 SQL 注入异常检测系统，针对 OpenWrt nginx 日志实时分析恶意 SQL 模式。</sub><br/>
-    <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white" />
-    <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" />
-    <img src="https://img.shields.io/badge/Nginx-009639?style=flat-square&logo=nginx&logoColor=white" />
-    <img src="https://img.shields.io/badge/OpenWrt-00B5E2?style=flat-square&logo=openwrt&logoColor=white" />
-  </td>
-  <td width="50%">
-    <b>🌐 OpenWrt 安全网关</b><br/>
-    <sub>基于 OpenWrt 的定制路由器固件与安全网关，包含 iptables 规则管理、流量过滤、DNS 沉洞及 FRP 隧道穿透。</sub><br/>
-    <img src="https://img.shields.io/badge/OpenWrt-00B5E2?style=flat-square&logo=openwrt&logoColor=white" />
-    <img src="https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black" />
-    <img src="https://img.shields.io/badge/Shell-4EAA25?style=flat-square&logo=gnu-bash&logoColor=white" />
-    <img src="https://img.shields.io/badge/FRP-0052CC?style=flat-square&logo=protonvpn&logoColor=white" />
-  </td>
-</tr>
-<tr>
-  <td width="50%">
-    <b>🐳 Docker 安全实验环境</b><br/>
-    <sub>容器化安全测试环境，预置漏洞应用、流量监控与自动化攻防场景，Docker Compose 一键部署。</sub><br/>
-    <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white" />
-    <img src="https://img.shields.io/badge/Docker_Compose-2496ED?style=flat-square&logo=docker&logoColor=white" />
-    <img src="https://img.shields.io/badge/Nginx-009639?style=flat-square&logo=nginx&logoColor=white" />
-    <img src="https://img.shields.io/badge/Metasploit-2596BE?style=flat-square&logo=metasploit&logoColor=white" />
-  </td>
-  <td width="50%">
-    <b>📚 AstrBot 知识库</b><br/>
-    <sub>AI 助手知识管理系统，智能文档检索、RAG 管道与多格式解析，专为安全知识整理与快速查阅设计。</sub><br/>
-    <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" />
-    <img src="https://img.shields.io/badge/LangChain-1C3C3C?style=flat-square&logo=chainlink&logoColor=white" />
-    <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white" />
-    <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white" />
-  </td>
-</tr>
-</table>
-
-</div>
-
----
-
-<!-- FOOTER SVG -->
-<div align="center">
-
-<img src="https://raw.githubusercontent.com/Winter21c/Winter21c/main/assets/footer.svg" alt="Keep Learning, Keep Building, Keep Securing" width="100%" />
-
-</div>
+<br clear="all" />
 
 <!--
   ╔══════════════════════════════════════╗
