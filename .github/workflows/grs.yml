@@ -1,0 +1,59 @@
+name: Update README Cards
+
+# 用自建流程生成 stats / top-langs 卡片，替代公共实例。
+# 关键：传入本人 PAT（SNAKE_TOKEN），否则默认的 GITHUB_TOKEN 属于 Actions
+# 机器人，只能读到公开数据（commits 会显示 27 而不是 2840）。
+
+on:
+  # 每天跑一次
+  schedule:
+    - cron: "0 3 * * *"
+
+  # 允许手动触发
+  workflow_dispatch:
+
+# 注意：故意不监听 push，否则本工作流自己产生的提交会再次触发自己，形成死循环。
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      # 固定到 v2.1.0 的 commit SHA：该 action 会拿到 PAT，
+      # 不用浮动 tag 以免上游被篡改时泄露令牌。
+      - name: Generate stats card
+        uses: stats-organization/github-readme-stats-action@2c498845f71017821efaad14293ebc736156ef21 # v2.1.0
+        with:
+          card: stats
+          options: "username=${{ github.repository_owner }}&show_icons=true&hide_border=true&icon_color=00d4ff&title_color=00d4ff&text_color=c9d1d9&bg_color=0d1117&custom_title=Winter&include_all_commits=true&count_private=true"
+          path: profile/stats.svg
+          token: ${{ secrets.SNAKE_TOKEN }}
+          fail_on_error: "true"
+
+      - name: Generate top languages card
+        uses: stats-organization/github-readme-stats-action@2c498845f71017821efaad14293ebc736156ef21 # v2.1.0
+        with:
+          card: top-langs
+          options: "username=${{ github.repository_owner }}&hide_border=true&layout=compact&title_color=00d4ff&text_color=c9d1d9&bg_color=0d1117&langs_count=8"
+          path: profile/top-langs.svg
+          token: ${{ secrets.SNAKE_TOKEN }}
+          fail_on_error: "true"
+
+      - name: Commit cards
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add profile/*.svg
+          if git diff --staged --quiet; then
+            echo "卡片无变化，跳过提交"
+          else
+            git commit -m "chore: update README cards"
+            git push
+          fi
