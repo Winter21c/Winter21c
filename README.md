@@ -14,8 +14,6 @@
 <!-- SNAKE -->
 <div align="center">
 
-## 🐍 Contribution Snake
-
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Winter21c/Winter21c/output/github-contribution-grid-snake-dark.svg" />
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Winter21c/Winter21c/output/github-contribution-grid-snake.svg" />
@@ -32,9 +30,7 @@
 ```yaml
 winter@github:~$ cat /etc/profile
 ------------------------------------
-昵称    : Winter
-身份    : 网络安全本科生 | 所在地: 中国
-------------------------------------
+昵称    : Winter/孤问尘
 
 研究方向:
   🎓 网安专业          🐧 Linux 爱好者 (Arch/Debian/Ubuntu)
@@ -42,8 +38,6 @@ winter@github:~$ cat /etc/profile
   🤖 AI 安全 (Transformer)  🐳 Docker 容器化安全
   🛡️ SQL注入检测/流量分析  🔬 ARM Linux 嵌入式系统
 
-当前聚焦:
-  Transformer SQL注入检测 | OpenWrt 安全网关 | 容器化安全研究
 ```
 
 ---
@@ -61,8 +55,7 @@ winter@github:~$ cat /etc/profile
 [![Debian](https://skillicons.dev/icons?i=debian)](https://skillicons.dev)
 [![Windows](https://skillicons.dev/icons?i=windows)](https://skillicons.dev)
 [![macOS](https://skillicons.dev/icons?i=apple)](https://skillicons.dev)
-![Deepin](https://img.shields.io/badge/Deepin-007CFF?style=flat-square&logo=deepin&logoColor=white)
-![FydeOS](https://img.shields.io/badge/FydeOS-FF4088?style=flat-square&logo=chromium&logoColor=white)
+
 
 **编程语言**
 
