@@ -32,6 +32,9 @@ jobs:
         uses: Platane/snk/svg-only@v3
         with:
           github_user_name: ${{ github.repository_owner }}
+          # 必须传本人 PAT：默认的 github.token 属于 Actions 机器人，
+          # 只能看到公开贡献，而本账号 98% 的贡献是私有的。
+          github_token: ${{ secrets.SNAKE_TOKEN }}
           outputs: |
             dist/github-contribution-grid-snake-dark.svg?palette=github-dark
 
@@ -40,6 +43,7 @@ jobs:
         uses: Platane/snk/svg-only@v3
         with:
           github_user_name: ${{ github.repository_owner }}
+          github_token: ${{ secrets.SNAKE_TOKEN }}
           outputs: |
             dist/github-contribution-grid-snake.svg?color_snake=#00FF41&color_dots=#bfd6f6,#8dbdff,#64a1f4,#4b91f1,#3c7dd9
 
