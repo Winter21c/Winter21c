@@ -1,4 +1,4 @@
-<img align="right" src="https://github-readme-stats-fast.vercel.app/api?username=Winter21c&show_icons=true&hide_border=true&icon_color=00d4ff&title_color=00d4ff&text_color=c9d1d9&bg_color=0d1117&custom_title=Winter&include_all_commits=true&count_private=true">
+<img align="right" src="./profile/stats.svg">
 
 # 孤问尘 (Winter21c) 🔭
 
@@ -7,7 +7,7 @@
 💬 a.k.a. Winter / 孤问尘。
 > ⚡ Web安全 · AI安全(Transformer) · OpenWrt 固件 | Linux 爱好者
 
-<img align="right" src="https://github-readme-stats-fast.vercel.app/api/top-langs?username=Winter21c&hide_border=true&layout=compact&title_color=00d4ff&text_color=c9d1d9&bg_color=0d1117&langs_count=8">
+<img align="right" src="./profile/top-langs.svg">
 
 - 一名网络安全方向的学生 🎓
 - zh-CN / en-US
